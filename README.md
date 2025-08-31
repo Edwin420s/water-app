@@ -76,7 +76,7 @@ A full-stack application that helps communities:
 
 ### 1. Clone and Setup
 ```bash
-git clone <repository-url>
+git clone https://github.com/Edwin420s/water-app
 cd water-app
 ```
 
