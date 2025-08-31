@@ -1,0 +1,149 @@
+.reservoir-card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.reservoir-header h3 {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 8px 0;
+}
+
+.reservoir-header p {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  font-size: 1rem;
+}
+
+.capacity-section {
+  margin-bottom: 24px;
+}
+
+.capacity-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.capacity-label {
+  color: var(--dark-gray);
+  font-weight: 500;
+}
+
+.capacity-value {
+  color: var(--primary-blue);
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.capacity-details {
+  text-align: right;
+  color: var(--gray);
+  font-size: 0.9rem;
+  margin-top: 8px;
+}
+
+.status-section {
+  margin-bottom: 24px;
+}
+
+.status-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  color: var(--dark-gray);
+  font-size: 0.95rem;
+}
+
+.runout-section {
+  margin-bottom: 24px;
+  padding: 16px;
+  background: var(--light-blue);
+  border-radius: var(--border-radius);
+  border-left: 4px solid var(--primary-blue);
+}
+
+.runout-section h4 {
+  color: var(--dark-gray);
+  margin: 0 0 12px 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.runout-date {
+  color: var(--primary-blue);
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.runout-warning {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.warning-text {
+  color: #f57c00;
+}
+
+.critical-text {
+  color: #d32f2f;
+}
+
+.reservoir-details {
+  margin: 20px 0;
+  padding: 16px;
+  background: var(--light-gray);
+  border-radius: var(--border-radius);
+}
+
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.detail-item:last-child {
+  margin-bottom: 0;
+}
+
+.detail-label {
+  color: var(--dark-gray);
+  font-weight: 500;
+}
+
+.detail-value {
+  color: var(--gray);
+  font-family: monospace;
+}
+
+.card-footer {
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 1px solid var(--light-gray);
+}
+
+.expand-btn {
+  padding: 8px 16px;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .reservoir-header h3 {
+    font-size: 1.2rem;
+  }
+  
+  .capacity-value {
+    font-size: 1.1rem;
+  }
+  
+  .runout-section {
+    padding: 12px;
+  }
+  
+  .reservoir-details {
+    padding: 12px;
+  }
+}

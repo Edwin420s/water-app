@@ -1,0 +1,39 @@
+.reservoir-list {
+  margin-top: 40px;
+}
+
+.list-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.list-header h2 {
+  color: var(--dark-gray);
+  margin-bottom: 12px;
+}
+
+.list-header p {
+  color: var(--gray);
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.no-results {
+  text-align: center;
+  padding: 60px 20px;
+  background: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.no-results h3 {
+  color: var(--dark-gray);
+  margin-bottom: 16px;
+  font-size: 1.5rem;
+}
+
+.no-results p {
+  color: var(--gray);
+  margin-bottom: 24px;
+  font-size: 1.1rem;
+}
